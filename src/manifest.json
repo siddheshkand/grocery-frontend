@@ -1,0 +1,30 @@
+{
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "short_name": "Grocery App",
+  "theme-color": "#472D21",
+  "background-color": "#C0B764",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "icons/icon.png",
+      "sizes": "96x96"
+    }
+  ]
+}
