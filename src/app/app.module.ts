@@ -8,12 +8,11 @@ import {LayoutModule} from '@angular/cdk/layout';
 import {MaterialModule} from './material/material.module';
 import {RouterModule, Routes} from '@angular/router';
 import {SampleComponent} from './utility/sample/sample.component';
-import { BuyerComponent } from './buyer/buyer.component';
-import { AdminComponent } from './admin/admin.component';
+import {BuyerComponent} from './buyer/buyer.component';
+import {AdminComponent} from './admin/admin.component';
+import {AppRoutingModule} from './app-routing.module';
+import { WelcomeComponent } from './buyer/welcome/welcome.component';
 
-const appRoutes: Routes = [
-  {path: '', component: SampleComponent}
-];
 
 @NgModule({
   declarations: [
@@ -21,11 +20,12 @@ const appRoutes: Routes = [
     UserNavComponent,
     SampleComponent,
     BuyerComponent,
-    AdminComponent
+    AdminComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes),
+    AppRoutingModule,
     BrowserAnimationsModule,
     LayoutModule,
     MaterialModule,
